@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1c1c1c;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+}
+/**************
+** Typo **
+**************/
+h1 {
+    font-family: 'Karla', sans-serif;
+    font-size: 40px;
+}
+
+span {
+    color: #4ADF86;
+}
+
+p {
+    font-size: 20px;
+    color: #D5D4D8;
+}
+
+label, input {
+    font-size: 16px;
+}
+
+button {
+    font-weight: 500;
+}
+
+.passbox p {
+    font-size: 14px;
+}
+/**************
+** Style **
+**************/
+
+.container {
+    width: 550px;
+    height: 550px;
+    margin: 64px auto;
+    background-color: #1F2937;
+    padding: 115px 52px;
+}
+
+p {
+    margin-top: 10px;
+}
+
+input {
+    width: 55px;
+    margin-top: 51px;
+}
+
+button {
+    background: #10B981;
+    color:#FFF;
+    font-size: 16px;
+    width: 191px;
+    height: 42px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    margin-top: 16px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.border {
+    margin: 35px 0; 
+    border: 1px solid #2F3E53;
+}
+
+.passwordBoxes {
+    display: flex;
+    justify-content: space-between;
+}
+.passbox {
+    width: 211px;
+    height: 45px;
+    background: #273549;
+    border-radius: 6px; 
+    color: #55F991;
+    padding: 0px 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.passbox p {
+    max-width: 98%;
+    justify-content: center; 
+    text-align: top;
+    overflow-y: hidden;
+    overflow-x: scroll; 
+    white-space: nowrap;
+
+}
+
+.passbox p::-webkit-scrollbar {
+    width: 12px;
+}
+
+.passbox p::-webkit-scrollbar-thumb {
+    background-color: #2F3E53;
+    border-radius: 20px;       
+}
+
+
+
+.passbox p {
+    color: #55F991;
+}
